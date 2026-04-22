@@ -68,7 +68,7 @@ public class GreedyStrategies {
     private List<Experiment> sortByWeightAsc() {
         List<Experiment> copy = new ArrayList<>(experiments);
         copy.sort(Comparator.comparingInt(Experiment::getWeight)
-                            .thenComparingInt(Experiment::getRating).reversed());
+                            .thenComparing(Comparator.comparingInt(Experiment::getRating).reversed()));
         return copy;
     }
 
@@ -76,7 +76,7 @@ public class GreedyStrategies {
     private List<Experiment> sortByRatioDesc() {
         List<Experiment> copy = new ArrayList<>(experiments);
         copy.sort(Comparator.comparingDouble(Experiment::getRatio).reversed()
-                            .thenComparingInt(Experiment::getRating).reversed());
+                            .thenComparing(Comparator.comparingInt(Experiment::getRating).reversed()));
         return copy;
     }
 }
