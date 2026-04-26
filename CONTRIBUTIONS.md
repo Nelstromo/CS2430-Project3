@@ -107,6 +107,6 @@
 ## Attestation
 Each team member should add initials next to their name once reviewed.
 
-- Nelson Long:          ____  Date: ____
+- Nelson Long:          NL Date: 4/26/26
 - Carlos Recinos:       ____  Date: ____
 - Christopher Reynolds: CR  Date: 04/26/2026
