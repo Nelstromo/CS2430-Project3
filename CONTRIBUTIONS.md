@@ -108,5 +108,5 @@
 Each team member should add initials next to their name once reviewed.
 
 - Nelson Long:          NL Date: 4/26/26
-- Carlos Recinos:       ____  Date: ____
+- Carlos Recinos:       CR  Date: 04/26/2026
 - Christopher Reynolds: CR  Date: 04/26/2026
